@@ -145,11 +145,11 @@ a {
 }
 
 #core-section {
-    background-image: url("assets/your_verse_hero.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom left;
-    height: 640px;
-    position: relative;
+  background-image: url("assets/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  height: 640px;
+  position: relative;
 }
 
 #top-bar {
