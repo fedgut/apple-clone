@@ -154,9 +154,7 @@ a {
 
 #top-bar {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: nowrap;
+  align-items: center;
   position: absolute;
   top: 90px;
   left: 15vw;
@@ -166,19 +164,16 @@ a {
 }
 
 .nav-links {
-  width: 10%;
+  padding: 0 2%;
   height: 2rem;
   border-right: black 1px solid;
+  align-items: center;
 }
 
 .nav-search {
-  width: 20%;
+  width: 92%;
   height: 2rem;
   color: white;
-}
-
-.nav-search>input {
-  width: 90%;
 }
 
 #core-header {
@@ -190,8 +185,11 @@ a {
   top: 130px;
   left: 15%;
   width: 60%;
-
 }
+
+
+
+
 
 
 
