@@ -161,25 +161,39 @@ a {
   top: 90px;
   left: 15vw;
   border-radius: 5px;
-  background: slategray;
+  background: linear-gradient(#4b4c4d, #8a8a8a);
   width: 900px;
 }
 
 .nav-links {
   width: 10%;
   height: 2rem;
-  color: white;
   border-right: black 1px solid;
 }
 
 .nav-search {
   width: 20%;
   height: 2rem;
+  color: white;
 }
 
 .nav-search>input {
   width: 90%;
 }
+
+#core-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 130px;
+  left: 15%;
+  width: 60%;
+
+}
+
+
 
 
 
