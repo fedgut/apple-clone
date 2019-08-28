@@ -154,7 +154,6 @@ a {
 
 #top-bar {
   display: flex;
-  align-items: center;
   position: absolute;
   top: 90px;
   left: 15vw;
@@ -164,16 +163,33 @@ a {
 }
 
 .nav-links {
-  padding: 0 2%;
+  padding: 0 3%;
   height: 2rem;
   border-right: black 1px solid;
-  align-items: center;
+  position: relative;
+}
+
+.nav-links>a {
+  position: relative;
+  top: 5px;
+  color: white;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .nav-search {
-  width: 92%;
+  width: 200px;
   height: 2rem;
-  color: white;
+  position: relative;
+}
+
+.nav-search>input {
+  background: linear-gradient(#4b4c4d, #8a8a8a);
+  border:#4b4c4d;
+  border-radius: 15px;
+  position: relative;
+  top: 5px;
+  width: 180px;
+  padding-left: 15px;
 }
 
 #core-header {
@@ -187,7 +203,13 @@ a {
   width: 60%;
 }
 
+#relevant-links {
+  display: flex;
+}
 
+#img-container {
+  margin: 5px 5px 0 0;
+}
 
 
 
