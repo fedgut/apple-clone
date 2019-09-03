@@ -87,8 +87,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
+  font: inherit 100%;
   vertical-align: baseline;
 }
 
@@ -169,7 +168,7 @@ a {
   position: relative;
 }
 
-.nav-links>a {
+.nav-links > a {
   position: relative;
   top: 5px;
   color: white;
@@ -182,9 +181,9 @@ a {
   position: relative;
 }
 
-.nav-search>input {
+.nav-search > input {
   background: linear-gradient(#4b4c4d, #8a8a8a);
-  border:#4b4c4d;
+  border: #4b4c4d;
   border-radius: 15px;
   position: relative;
   top: 5px;
@@ -205,16 +204,10 @@ a {
 
 #relevant-links {
   display: flex;
+  width: 100%;
 }
 
-#img-container {
-  margin: 5px 5px 0 0;
-  width: 20%;
+.aside-links {
+  margin: 8px 5px 0 0;
+  width: 24.7s5%;
 }
-
-
-
-
-
-
-
