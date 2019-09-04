@@ -180,7 +180,7 @@ a {
 }
 
 .nav-search > input {
-  background: linear-gradient(#4b4c4d, #8a8a8a);
+  background: linear-gradient(#3f4041, #8a8a8a);
   border: #4b4c4d;
   border-radius: 15px;
   width: 70%;
@@ -200,7 +200,7 @@ a {
   font-family: "Lato", sans-serif;
 }
 
-#one {
+#one  {
   padding: 4rem 0 1.75rem;
   font-size: 3.5rem;
   font-weight: 200;
