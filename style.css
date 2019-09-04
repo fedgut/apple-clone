@@ -242,5 +242,31 @@ a {
 
 #second-links {
   display: flex;
-  width: 50%;
+  width: 55%;
+  margin: 0.7rem auto;
+  justify-content: space-between;
+}
+
+.bottom-links {
+  font-size: 0.75rem;
+  font-family: "Lucida Grande", "Lucida Sans Unicode" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+  padding: 0.4rem 0 0;
+}
+
+.bottom-links > p {
+  padding: 0.32rem 0 0.55rem 0;
+  color: #4b4c4d;
+}
+
+.bottom-anchor {
+  color: rgb(0, 136, 204);
+  padding: 0 0.125rem 0 0.125rem;
+}
+
+.left-bottom > .bottom-anchor {
+  border-left: 1px solid #8a8a8a;
+}
+
+.left-bottom > .bottom-anchor:first-of-type {
+  border-left: none;
 }
