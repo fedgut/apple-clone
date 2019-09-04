@@ -139,8 +139,9 @@ a {
 }
 
 #core {
-  width: 1440px;
+  width: 78%;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 #core-section {
@@ -148,66 +149,91 @@ a {
   background-repeat: no-repeat;
   background-position: bottom left;
   height: 640px;
-  position: relative;
+  box-sizing: border-box;
 }
 
 #top-bar {
   display: flex;
-  position: absolute;
-  top: 90px;
-  left: 15vw;
-  border-radius: 5px;
-  background: linear-gradient(#4b4c4d, #8a8a8a);
-  width: 900px;
+  padding-top: 6rem;
+  padding-left: 20%;
+  border-radius: 10px;
+  width: 60%;
+  align-content: center;
 }
 
 .nav-links {
   padding: 0 3%;
   height: 2rem;
-  border-right: black 1px solid;
-  position: relative;
-}
-
-.nav-links > a {
-  position: relative;
-  top: 5px;
+  background: linear-gradient(#4b4c4d, #8a8a8a);
+  border-right: rgb(19, 18, 18) 1px solid;
   color: white;
-  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font: 0.75rem "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .nav-search {
   width: 200px;
   height: 2rem;
-  position: relative;
+  background: linear-gradient(#4b4c4d, #8a8a8a);
+  display: flex;
 }
 
 .nav-search > input {
   background: linear-gradient(#4b4c4d, #8a8a8a);
   border: #4b4c4d;
   border-radius: 15px;
-  position: relative;
-  top: 5px;
-  width: 180px;
-  padding-left: 15px;
+  width: 70%;
+  align-self: center;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
 #core-header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  flex-wrap: nowrap;
-  position: absolute;
-  top: 130px;
-  left: 15%;
-  width: 60%;
+}
+
+.core-links {
+  margin: 0 auto;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+#one {
+  padding: 4rem 0 1.75rem;
+  font-size: 3.5rem;
+  font-weight: 200;
+}
+
+#two {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 0 0 1.5rem;
+  text-align: center;
+}
+
+#three {
+  font-size: 1.3rem;
+  font-weight: 300;
 }
 
 #relevant-links {
-  display: flex;
   width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .aside-links {
-  margin: 8px 5px 0 0;
-  width: 24.7s5%;
+  box-sizing: border-box;
+  width: 25%;
+  padding: 2px 5px 0 0;
+}
+
+.aside-links: :last-of-type {
+  padding: 5px 0 0 0;
+}
+
+.aside-links > .figure-images {
+  width: 100%;
+  box-sizing: border-box;
 }
