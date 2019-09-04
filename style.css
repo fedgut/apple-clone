@@ -268,5 +268,5 @@ a {
 }
 
 .left-bottom > .bottom-anchor:first-of-type {
-  border-left: none;
+  border: none;
 }
