@@ -1,0 +1,272 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#core {
+  width: 78%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+#core-section {
+  background-image: url("assets/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  height: 640px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+#top-bar {
+  display: flex;
+  margin-top: 6rem;
+  margin-left: 20%;
+  border-radius: 5px;
+  width: 60%;
+  background: linear-gradient(#4b4c4d, #8a8a8a);
+}
+
+.nav-links {
+  display: flex;
+  padding: 0 3%;
+  height: 2rem;
+  border-right: rgb(19, 18, 18) 1px solid;
+  color: white;
+  font: 0.75rem "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  align-items: center;
+}
+
+.nav-search {
+  width: 200px;
+  height: 2rem;
+  background: linear-gradient(#4b4c4d, #8a8a8a);
+  display: flex;
+}
+
+.nav-search > input {
+  background: linear-gradient(#3f4041, #8a8a8a);
+  border: #4b4c4d;
+  border-radius: 15px;
+  width: 70%;
+  align-self: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+#core-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.core-links {
+  margin: 0 auto;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+#one {
+  padding: 4rem 0 1.75rem;
+  font-size: 3.5rem;
+  font-weight: 200;
+}
+
+#two {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.5;
+  padding: 0 0 1.5rem;
+  text-align: center;
+}
+
+#three {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+#relevant-links {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.aside-links {
+  box-sizing: border-box;
+  width: 25%;
+  padding: 2px 5px 0 0;
+}
+
+.aside-links: :last-of-type {
+  padding: 5px 0 0 0;
+}
+
+.aside-links > .figure-images {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#second-links {
+  display: flex;
+  width: 55%;
+  margin: 0.7rem auto;
+  justify-content: space-between;
+}
+
+.bottom-links {
+  font-size: 0.75rem;
+  font-family: "Lucida Grande", "Lucida Sans Unicode" 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+  padding: 0.4rem 0 0;
+}
+
+.bottom-links > p {
+  padding: 0.32rem 0 0.55rem 0;
+  color: #4b4c4d;
+}
+
+.bottom-anchor {
+  color: rgb(0, 136, 204);
+  padding: 0 0.125rem 0 0.125rem;
+}
+
+.left-bottom > .bottom-anchor {
+  border-left: 1px solid #8a8a8a;
+}
+
+.left-bottom > .bottom-anchor:first-of-type {
+  border: none;
+}
